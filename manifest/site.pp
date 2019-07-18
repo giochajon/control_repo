@@ -1,7 +1,7 @@
 node default {
-  file { '/root/README':
+  file { '/root/chicolico.txt':
     ensure => file,
-    content => 'This is a readme',
+    content => 'nada que ver',
     owner   => 'root',
   }
 }
